@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bank xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+    xsi:noNamespaceSchemaLocation="bank.xsd">
+    
+    <Deposit accountId="ID-1001">
+        <Name>PrivatBank</Name>
+        <Country>Ukraine</Country>
+        <Type>накопичувальний</Type>
+        <Depositor>Ivan Ivanov</Depositor>
+        <AmountOnDeposit>50000.00</AmountOnDeposit>
+        <Profitability>9.5</Profitability>
+        <TimeConstraints>12</TimeConstraints>
+    </Deposit>
+
+    <Deposit accountId="ID-1002">
+        <Name>Monobank</Name>
+        <Country>Ukraine</Country>
+        <Type>строковий</Type>
+        <Depositor>Petro Petrenko</Depositor>
+        <AmountOnDeposit>15000.50</AmountOnDeposit>
+        <Profitability>14.0</Profitability>
+        <TimeConstraints>6</TimeConstraints>
+    </Deposit>
+
+    <Deposit accountId="ID-1003">
+        <Name>Oschadbank</Name>
+        <Country>Ukraine</Country>
+        <Type>до запитання</Type>
+        <Depositor>Oleksandr Shevchenko</Depositor>
+        <AmountOnDeposit>1200.00</AmountOnDeposit>
+        <Profitability>2.5</Profitability>
+        <TimeConstraints>0</TimeConstraints>
+    </Deposit>
+
+</Bank>
