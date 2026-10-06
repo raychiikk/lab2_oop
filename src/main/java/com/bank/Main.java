@@ -51,6 +51,7 @@ public class Main {
         logger.info("=> Executing StAX Parser:");
         DepositParser staxParser = new StaxDepositParser();
         List<Deposit> staxDeposits = staxParser.parse(xmlPath);
+        staxDeposits.forEach(d -> logger.info("Parsed by StAX: {}", d.toString()));
 
         // 3. Сортування (на прикладі колекції, розпарсеної через SAX)
         logger.info("\nStep 3: Sorting Deposits...");
